@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <details>
+        <summary>1. What is CSS? Why do we use it?</summary>
+        <p>CSS (Cascading Style Sheets) is a language used for styling and to describe the presentation (layout, colors, fonts) of HTML documents.</p>
+    </details>
+    
+        <details>
+            <summary>2. In how many ways can we create CSS styling?</summary>
+            <p>CSS styling can be added in three main ways:
+                Inline CSS: Styles are added directly to the HTML element using the style attribute.
+                Internal (Embedded) CSS: Styles are placed inside  tag within the HTML document head tag
+                External CSS Styles are placed in an external .css file, linked to the HTML file.</p>
+        </details>
+        <details>
+            <summary>3.Difference between the 3 ways of CSS styling:</summary>
+            <p>Inline CSS: Overrides all other styles but can make HTML harder to maintain.
+                Internal CSS: Good for small websites or pages with unique styles but doesn’t allow for reusability across pages.
+                External CSS: Best for larger projects, allows separation of concerns and reusability across multiple pages</p>
+        </details>
+        <details>
+            <summary>4. What is specificity among the ways of CSS styling?</summary>
+            <p>Specificity determines which CSS rule is applied by calculating the "weight" of selectors. Inline styles have the highest specificity, followed by ID selectors, class selectors, and element selectors.</p>
+        </details>
+        <details>
+            <summary>5.Syntax of CSS:</summary>
+            <p>selector {
+                property: value;
+              }</p>
+        </details>
+        <details>
+            <summary>6.What is a selector?</summary>
+            <p>A selector in CSS defines the HTML element(s) to which the styles apply. Examples include element, class, id selectors.
+            </p>
+        </details>
+        <details>
+            <summary>7. Types of selectors:</summary>
+            <p>Element selectors: Target HTML elements like h1, p.
+                Class selectors: Target elements with a specific class (e.g., .my-class).
+                ID selectors: Target a single element with a specific ID (e.g., #my-id).
+                Universal selector (*): Targets all elements.
+                Attribute selectors, pseudo-classes, and pseudo-elements also exist.
+                </p>
+        </details>
+        <details>
+            <summary>8.Difference between display: inline vs display: block vs display: inline-block:</summary>
+            <p>inline: Elements do not start on a new line and only take up as much width as necessary (e.g., <span>).
+                block: Elements start on a new line and take up the full width (e.g., <div>).
+                inline-block: Behaves like inline elements but allows setting width/height.
+                </p>
+        </details>
+
+    <details>
+        <summary>9. Difference between visibility: hidden and display: none:</summary>
+        <p>visibility: hidden: The element is invisible but still takes up space.
+            display: none: The element is removed from the layout completely.</p>
+    </details>
+    <details>
+        <summary>10. What is object-fit?</summary>
+        <p>object-fit controls how content like images or videos are resized within their container. Common values are:
+            fill, contain, cover, scale-down, none.</p>
+    </details>
+    <details>
+        <summary>11. What is the background property?</summary>
+        <p>The background property allows setting background styles for elements (color, image, position, etc.).
+            Example properties:
+            background-color
+            background-image
+            background-repeat
+            background-position</p>
+    </details>
+    <details>
+        <summary>12. What is the position property?</summary>
+        <p>position specifies the positioning method for an element:
+            static, relative, absolute, fixed, sticky.</p>
+    </details>
+    
+        <details>
+            <summary>13. Difference between position: sticky and position: fixed:</summary>
+            <p>sticky: The element sticks to a position based on the scroll but only within its parent container.
+                fixed: The element is fixed relative to the viewport and stays there when scrolling.</p>
+        </details>
+        <details>
+            <summary>14.Difference between position: relative and position: absolute:</summary>
+            <p>relative: Moves an element relative to its normal position.
+                absolute: Positions the element relative to the nearest positioned ancestor.</p>
+        </details>
+        <details>
+            <summary>15.What is overflowing in CSS?</summary>
+            <p>Overflowing occurs when an element's content is too large to fit inside its box. Use the overflow property to handle it (visible, hidden, scroll, auto).</p>
+        </details>
+        <details>
+            <summary>16. What is z-index in CSS?</summary>
+            <p>z-index controls the stacking order of elements. Higher values bring elements to the front. Default is auto (0).</p>
+        </details>
+        <details>
+            <summary>17. What is a clear property?</summary>
+            <p>The clear property specifies on which sides floating elements are not allowed to float. Values: left, right, both.
+            </p>
+        </details>
+        <details>
+            <summary>18. What are CSS variables?</summary>
+            <p>CSS variables (Custom Properties) allow reusability of values. Defined with --variable-name and accessed with var(--variable-name).
+            </p>
+        </details>
+        <details>
+            <summary>19. What is :root in CSS?</summary>
+            <p>:root represents the top-level element (usually <html>) and is used to define global CSS variables.</p>
+        </details>
+        <details>
+            <summary>20. What are text properties?</summary>
+            <p>Properties controlling text appearance:
+                color, font-size, font-family, text-align, text-transform, text-shadow, etc.
+                </p>
+        </details>
+        <details>
+            <summary>21. What are font properties?</summary>
+            <p>Font properties include:
+                font-family, font-size, font-weight, font-style, line-height, letter-spacing.
+                </p>
+        </details>
+        <details>
+            <summary>22. What is a Flexbox in CSS?</summary>
+            <p>Flexbox is a layout system that allows easy alignment of elements along the main and cross axes. It provides flexible container management.</p>
+        </details>
+        <details>
+            <summary>23. What is a grid layout system?</summary>
+            <p>Grid provides a two-dimensional layout system, allowing content to be organized into rows and columns.</p>
+        </details>
+        <details>
+            <summary>24. Difference between Flex and Grid:</summary>
+            <p>Flexbox: One-dimensional (row or column).
+                Grid: Two-dimensional (rows and columns).
+                </p>
+        </details>
+        <details>
+            <summary>25. What are media queries in CSS?</summary>
+            <p>Media queries allow applying styles based on the device’s characteristics (like width). Useful for responsive design.</p>
+        </details>
+        <details>
+            <summary>26. What are transitions in CSS?</summary>
+            <p>Transitions allow smooth changes in CSS property values over a duration.
+            </p>
+        </details>
+        <details>
+            <summary>27. What are transforms in CSS?</summary>
+            <p>Transforms allow 2D/3D manipulation of elements (e.g., rotate(), scale(), skew(), translate()).</p>
+        </details>
+        <details>
+            <summary>28. How can you center a div?</summary>
+            <p>Using display: grid; place-items: center; is one method to center a div both vertically and horizontally.</p>
+        </details>
+        
+        <details>
+            <summary>29. Difference between Transitions vs Transforms vs Animations:</summary>
+            <p>Transitions: For smooth changes over time.
+                Transforms: For element transformations like rotation, scaling.
+                Animations: More complex, allow keyframe-based animations.
+                </p>
+        </details>
+    <details>
+        <summary>30. General Selectors:</summary>
+        <p>ID, class, element, universal selector, grouping selectors (e.g., h1, h2).</p>
+    </details>
+    <details>
+        <summary>31. Difference between Pseudo-class vs Pseudo-element:</summary>
+        <p>Pseudo-class: Targets an element based on its state (e.g., :hover).
+            Pseudo-element: Targets a part of an element (e.g., ::before, ::after).</p>
+    </details>
+    <details>
+        <summary>32.What is a rule set?</summary>
+        <p>A rule set consists of a selector and declaration block (e.g., h1 { color: red; }).</p>
+    </details>
+    <details>
+        <summary>33. What is the box-model?</summary>
+        <p>The CSS box model defines how elements are structured (content, padding, border, margin)</p>
+    </details>
+    <details>
+        <summary>34. Box-model properties:</summary>
+        <p>Content, padding, border, margin.</p>
+    </details>
+    <details>
+        <summary>35. Difference between padding and margin:</summary>
+        <p>Padding: Space inside the element’s border.
+            Margin: Space outside the element’s border.</p>
+    </details>
+    <details>
+        <summary>36. Difference between outline and border:</summary>
+        <p>Border: Part of the element box, takes up space.
+            Outline: Does not take up space, drawn outside the border.</p>
+    </details>
+    <details>
+        <summary>37. Types of colors in CSS:</summary>
+        <p>Direct color names, RGB, RGBA, hexadecimal, HSL, HSLA.</p>
+    </details>
+    <details>
+        <summary>38. What is opacity?</summary>
+        <p>Opacity controls the transparency of an element. Value ranges from 0 (transparent) to 1 (opaque).</p>
+    </details>
+    <details>
+        <summary>39. What are shadows in CSS?</summary>
+        <p>n CSS, shadows are used to create visual depth and make elements stand out. There are two main types of shadows.</p>
+    </details>
+    
+</body>
+</html>
